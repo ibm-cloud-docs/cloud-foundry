@@ -53,6 +53,13 @@ Diego BBS API is not accessible. Users are not able to do `cf push app` and CF a
   ```
   {: screen}
 
+Similar error codes returned by Cloud Foundry application management operations may suggest the same issue. If `cf apps` output displays `?/1`, as shown below, it is likely the environment in question is experiencing the BBS lock issue.
+
+```
+name          requested state   instances   memory   disk   urls
+hello-world   started           ?/1         128M     1G     hello-world.cluster-id.us-south.containers.appdomain.cloud
+```
+
 ### How to fix it
 {: #stager_debug_fix}
 
