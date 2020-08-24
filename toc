@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="cloud-foundry" category="runtime" audience="runtime" href="/docs/cloud-foundry?topic=cloud-foundry-getting-started" path="cloud-foundry"}
+{: .toc subcollection="cloud-foundry" audience="runtime" href="/docs/cloud-foundry?topic=cloud-foundry-getting-started" path="cloud-foundry"}
 Cloud Foundry Enterprise Environment
 
     {: .navgroup id="learn"}
