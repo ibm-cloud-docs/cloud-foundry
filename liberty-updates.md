@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-07-29"
+lastupdated: "2020-08-26"
 
 ---
 
@@ -14,9 +14,18 @@ lastupdated: "2020-07-29"
 
 ## A list of the latest updates in the Liberty buildpack.
 
+### August 26, 2020: Updated Liberty buildpack v3.48-20200821-1648
+* The default Liberty runtime GA version is the `20.0.0.9` release.
+* The alternate Liberty runtime GA version was changed to `20.0.0.9` release.
+* The IBM JRE version was updated to [8 SR6 FP15](https://developer.ibm.com/javasdk/2020/08/04/ibm-sdk-java-technology-edition-version-8-service-refresh-6-fix-pack-15/)
+* The IBM JRE 8 SR6 FP15 includes fixes to the following three PSIRTs: 
+  * [CVE-2020-2590](https://www.ibm.com/blogs/psirt/security-bulletin-cve-2020-2590-may-affect-ibm-sdk-java-technology-edition/) was disclosed as part of the Oracle January 2020 Critical Patch Update.
+  * [CVE-2020-2601](https://www.ibm.com/blogs/psirt/security-bulletin-cve-2020-2601-may-affect-ibm-sdk-java-technology-edition/) was also disclosed as part of the Oracle January 2020 Critical Patch Update.
+  * IBM SDK, Java Technology Edition [Quarterly CPU - Jul 2020](https://www.ibm.com/blogs/psirt/security-bulletin-ibm-sdk-java-technology-edition-quarterly-cpu-jul-2020-includes-oracle-jul-2020-cpu-plus-one-additional-vulnerability-affects-content-collecor-for-sap-applications/)
+
 ### July 29, 2020: Updated Liberty buildpack v3.47-20200723-1022
 * The default Liberty runtime GA version is the [20.0.0.6](https://openliberty.io/blog/2020/06/05/graphql-open-liberty-20006.html) release.
-* The alternate Liberty runtime GA version was changed to [20.0.0.8]() release.
+* The alternate Liberty runtime GA version was changed to [20.0.0.8](https://openliberty.io/blog/2020/07/30/json-logging-open-liberty-20008.html) release.
 * The IBM JRE version was updated to [8 SR6 FP11](https://developer.ibm.com/javasdk/2020/06/26/ibm-sdk-java-technology-edition-version-8-service-refresh-6-fix-pack-11/)
 * The AdoptOpenJDK OpenJ9 alternate JRE was updated to version 11.0.8_10_openj9-0.21.0.
 
