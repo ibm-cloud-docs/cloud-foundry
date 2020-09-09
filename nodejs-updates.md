@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-06-08"
+lastupdated: "2020-09-08"
 subcollection: cloud-foundry
 
 ---
@@ -16,6 +16,11 @@ subcollection: cloud-foundry
 {: #nodejs-latest_updates}
 
 A list of the latest updates in the sdk-for-nodejs buildpack.
+
+## September 8, 2020: Updated Node.js buildpack v4.4-20200828-1028
+
+The SDK for Node.js buildpack v4.3 provides Node.js community runtime versions v10.21.0, v.10.22.0, v12.18.2, v12.18.3. The default is latest 10.x, so it is currently 10.21.0.  This buildpack is based on the community node.js buildpack [v1.7.26](https://github.com/cloudfoundry/nodejs-buildpack/tree/v1.7.26). 
+
 
 ## June 8, 2020: Updated Node.js buildpack v4.3-20200606-1928
 
