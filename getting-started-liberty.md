@@ -17,6 +17,8 @@ subcollection: cloud-foundry
 {:hide-in-docs: .hide-in-docs}
 {:hide-dashboard: .hide-dashboard}
 
+## Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow: https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-liberty
+
 # Getting started with Liberty for Java
 {: #getting-started-liberty}
 

@@ -16,6 +16,8 @@ subcollection: cloud-foundry
 {:hide-in-docs: .hide-in-docs}
 {:app_name: data-hd-keyref="app_name"}
 
+##Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow:  https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-getting_started-dotnet
+
 # Getting started with ASP.NET Core
 {: #getting_started-dotnet}
 

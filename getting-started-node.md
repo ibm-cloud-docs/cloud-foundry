@@ -16,6 +16,7 @@ subcollection: cloud-foundry
 {:hide-dashboard: .hide-dashboard}
 {:app_name: data-hd-keyref="app_name"}
 
+## Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow: https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-node
 
 # Getting started with SDK for Node.js
 {: #getting-started-node}
@@ -207,7 +208,7 @@ Remember, if you don't need your app live on {{site.data.keyword.Bluemix_notm}},
 {: hide-dashboard}
 
 Check out the following resources:
-{: hide-dashboard} 
+{: hide-dashboard}
 
 * [Tutorials](/docs/tutorials?topic=solution-tutorials-tutorials)
 * [Samples ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm-cloud.github.io){: new_window}

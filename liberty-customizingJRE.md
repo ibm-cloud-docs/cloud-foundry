@@ -10,6 +10,8 @@ subcollection: cloud-foundry
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
 
+##Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow: https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-customizing_jre
+
 # Customize the JRE
 {: #customizing_jre}
 
@@ -26,7 +28,7 @@ By default, applications are configured to run with a lightweight version of the
 ```
 {: codeblock}
 
-The version property can be set to a version range. There are two supported version ranges: 1.8.+ and 11.+. For best results, use Java 8. 
+The version property can be set to a version range. There are two supported version ranges: 1.8.+ and 11.+. For best results, use Java 8.
 
 ## OpenJDK
 {: #openjdk}

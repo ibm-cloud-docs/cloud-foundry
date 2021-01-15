@@ -10,6 +10,8 @@ subcollection: cloud-foundry
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
 
+## Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow: https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-using_beta_features
+
 # Use the beta features
 {: #using_beta_features}
 
