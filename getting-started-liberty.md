@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2019
+  years: 2017, 2021
 lastupdated: "2019-11-05"
 subcollection: cloud-foundry
 
@@ -17,7 +17,7 @@ subcollection: cloud-foundry
 {:hide-in-docs: .hide-in-docs}
 {:hide-dashboard: .hide-dashboard}
 
-{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this topic](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-liberty).
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-liberty).
 {: important}
 
 # Getting started with Liberty for Java
