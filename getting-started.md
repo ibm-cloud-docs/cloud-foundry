@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-08-13"
+  years: 2018, 2021
+lastupdated: "2021-01-21"
 
 keywords: getting started tutorial, IBM Cloud, Cloud Foundry Enterprise Environment
 
@@ -19,7 +19,7 @@ subcollection: cloud-foundry
 {:note: .note}
 {:important: .important}
 
-The IBM Cloud Foundry Enterprise Environment single-tenant cloud product is deprecated and will be withdrawn from the market. [Click here for more information.](/docs/cloud-foundry?topic=cloud-foundry-what-s-new-in-ibm-cloud-foundry-enterprise-environment#deprecation)
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.ibmcf_notm}} can be found in the [{{site.data.keyword.ibmcf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started).
 {: important}
 
 # Getting started with {{site.data.keyword.cfee_full_notm}}
@@ -34,7 +34,7 @@ In this {{site.data.keyword.cfee_full}} getting started tutorial, we add users t
 {: #prereqs}
 
 * Ensure that you're in the {{site.data.keyword.Bluemix_notm}} account where you want to create the instance.
-* Ensure that you have the correct [permissions](/docs/cloud-foundry?topic=cloud-foundry-permissions). 
+* Ensure that you have the correct [permissions](/docs/cloud-foundry?topic=cloud-foundry-permissions).
 * [Prepare your IBM Cloud account](/docs/cloud-foundry?topic=cloud-foundry-prepare) to ensure that it can create the infrastructure resources required for an instance.
 * Create a CFEE instance from the [CFEE page in the {{site.data.keyword.Bluemix_notm}} catalog](https://cloud.ibm.com/cfadmin/create). For more information, see [Creating a CFEE instance](/docs/cloud-foundry?topic=cloud-foundry-create-environment).
 
@@ -53,13 +53,13 @@ After your instance is created, structure the environment by creating organizati
 4. Enter a **Name** for the new organization.
 5. Under **Managers**, identify at least one user. Users with a Manager role can add members to that organization.
 6. Under **Quota plan**, select an available plan. A quota plan limits the memory available for apps in the organization, the maximum number of apps instances hosted, and the maximum number of routes.
-  
+
     You can select a different quota at a later time. You can also create your own custom quotas in the **Quotas** page of the CFEE user interface. You can make a custom quota the _Default_ quota by clicking the _Copy to default_ action from the quota's overflow menu, which copies the values of the custom quota into the default quota.
     {: tip}
 
 1. Click **Add** to create the organization.
 1. On the Organizations page, click the name of the organization you created.
-1. Click the **Spaces** tab and click **Create Space**. 
+1. Click the **Spaces** tab and click **Create Space**.
 1. Enter a name for the space, select at least one manager, and click **Add**.
 
 ## Step 2. Add users to organizations and spaces
@@ -111,7 +111,7 @@ You can [deploy apps](/docs/cloud-foundry?topic=cloud-foundry-deploy_apps) to yo
 6.  Access your app by browsing to `https://<app_url>.<AppDomainName>`.
 
 
-## Step 4. Bind applications to service instances 
+## Step 4. Bind applications to service instances
 {: #bind-apps}
 
 [Create services](/docs/cloud-foundry?topic=cloud-foundry-workingwith-services#creating-services-inspace) or [Add existing services](/docs/cloud-foundry?topic=cloud-foundry-workingwith-services#adding-services-inspace) from your IBM Cloud account to the CFEE space so you can bind the services to the applications you deployed.
@@ -131,15 +131,15 @@ You can do the following tasks to manage your environment if it was created from
 
  * Enable the environment for [auditing events](/docs/cloud-foundry?topic=cloud-foundry-auditing-logging#auditing) and [logging persistence](/docs/cloud-foundry?topic=cloud-foundry-auditing-logging#logging).
 
- * [Enable monitoring tools](/docs/cloud-foundry?topic=cloud-foundry-monitoring) after the CFEE instance is created. The monitoring toolset includes Prometheus, Grafana, and Alertmanager. Monitoring tools are not automatically provisioned on CFEE instances v2.2.0 or later. 
+ * [Enable monitoring tools](/docs/cloud-foundry?topic=cloud-foundry-monitoring) after the CFEE instance is created. The monitoring toolset includes Prometheus, Grafana, and Alertmanager. Monitoring tools are not automatically provisioned on CFEE instances v2.2.0 or later.
 
  * [Create  Cloud Foundry domains](/docs/cloud-foundry?topic=cloud-foundry-domains) for all applications in an environment  (shared domains) or for a specific organization (private domains), and secure them with SSL certificates.
 
- * Configure the prioritization order of the Cloud Foundry buildbacks. [Buildpacks](https://docs.cloudfoundry.org/buildpacks/) provide the runtime support for applications deployed in a Cloud Foundry environment, automatically configuring the runtime for an application and handling its dependencies. Cloud Foundry includes a set of buildpacks for common languages and frameworks. You can create and upload custom buildpacks in the **Buildpacks** page of the CFEE user interface. 
- 
+ * Configure the prioritization order of the Cloud Foundry buildbacks. [Buildpacks](https://docs.cloudfoundry.org/buildpacks/) provide the runtime support for applications deployed in a Cloud Foundry environment, automatically configuring the runtime for an application and handling its dependencies. Cloud Foundry includes a set of buildpacks for common languages and frameworks. You can create and upload custom buildpacks in the **Buildpacks** page of the CFEE user interface.
+
    Buildpacks have an ordinal position in the priority list.  During the staging of an application, Cloud Foundry checks the compatibility of the application against the set of buildpacks starting with position 1. The compatibility checks proceeds down the priority list until it finds a compatible buildpack. Ensure that the priority sequence of the buildpack set meets the needs of your development teams.  You can change the position of a buildpack in the priority sequence by dragging and dropping the buildpack name into a different position.  You can also manage buildpacks through the [Cloud Foundry CLI](https://docs.cloudfoundry.org/adminguide/buildpacks.html).
 
-Regardlesss of whether your CFEE instance was created from the **Standard** plan or the **Eirini Technical Preview** plan,  you can [install the Stratos Console](/docs/cloud-foundry?topic=cloud-foundry-stratos) to manage your environment's organizations, spaces, and applications. 
+Regardlesss of whether your CFEE instance was created from the **Standard** plan or the **Eirini Technical Preview** plan,  you can [install the Stratos Console](/docs/cloud-foundry?topic=cloud-foundry-stratos) to manage your environment's organizations, spaces, and applications.
 
 You can perform some administrations tasks in a CFEE usig `ibmcloud CFEE` CLI commands. The commands allow you to get information about a CFEE instance, as well as to manage its organizations and spaces. See [IBM Cloud CLI CFEE command reference](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_cfee){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 

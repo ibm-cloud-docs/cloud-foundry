@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-11-05"
+  years: 2017, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 
 ---
@@ -16,6 +16,9 @@ subcollection: cloud-foundry
 {:app_name: data-hd-keyref="app_name"}
 {:hide-in-docs: .hide-in-docs}
 {:hide-dashboard: .hide-dashboard}
+
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.ibmcf_notm}} can be found in the [{{site.data.keyword.ibmcf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-liberty).
+{: important}
 
 # Getting started with Liberty for Java
 {: #getting-started-liberty}

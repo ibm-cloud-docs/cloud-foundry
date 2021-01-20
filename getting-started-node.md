@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-11-07"
+  years: 2017, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 ---
 
@@ -16,6 +16,8 @@ subcollection: cloud-foundry
 {:hide-dashboard: .hide-dashboard}
 {:app_name: data-hd-keyref="app_name"}
 
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.ibmcf_notm}} can be found in the [{{site.data.keyword.ibmcf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-node).
+{: important}
 
 # Getting started with SDK for Node.js
 {: #getting-started-node}
@@ -207,7 +209,7 @@ Remember, if you don't need your app live on {{site.data.keyword.Bluemix_notm}},
 {: hide-dashboard}
 
 Check out the following resources:
-{: hide-dashboard} 
+{: hide-dashboard}
 
 * [Tutorials](/docs/tutorials?topic=solution-tutorials-tutorials)
 * [Samples ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm-cloud.github.io){: new_window}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-06-08"
+  years: 2015, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 
 ---
@@ -12,10 +12,18 @@ subcollection: cloud-foundry
 {:important: .important}
 {:note: .note}
 
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.ibmcf_notm}} can be found in the [{{site.data.keyword.ibmcf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-nodejs-latest_updates).
+{: important}
+
 # Latest updates to the SDK for Node.js buildpack
 {: #nodejs-latest_updates}
 
 A list of the latest updates in the sdk-for-nodejs buildpack.
+
+## September 8, 2020: Updated Node.js buildpack v4.4-20200828-1028
+
+The SDK for Node.js buildpack v4.3 provides Node.js community runtime versions v10.21.0, v.10.22.0, v12.18.2, v12.18.3. The default is latest 10.x, so it is currently 10.21.0.  This buildpack is based on the community node.js buildpack [v1.7.26](https://github.com/cloudfoundry/nodejs-buildpack/tree/v1.7.26).
+
 
 ## June 8, 2020: Updated Node.js buildpack v4.3-20200606-1928
 
@@ -40,7 +48,7 @@ Beginning with this buildpack, the Node.js v8.x runtimes are no longer included.
 
 This release also includes CVE-2019-15605, CVE-2019-15606, CVE-2019-15604:
 * [February 2020 Security Releases](https://nodejs.org/en/blog/vulnerability/february-2020-security-releases/)
- 
+
 ## December 11, 2019: Updated Node.js buildpack v4.1
 
 The SDK for Node.js buildpack v4.1 provides Node.js community versions v8.16.1, v8.16.2, v10.16.3, v10.17.0, v12.11.1, v12.13.0. The default is latest 10.x, so it is currently 10.17.0.  This buildpack is based on the community node.js buildpack [v1.7.3](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.7.3).  

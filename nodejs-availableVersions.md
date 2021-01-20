@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-20"
+  years: 2015, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 
 ---
@@ -10,6 +10,9 @@ subcollection: cloud-foundry
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
+
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.ibmcf_notm}} can be found in the [{{site.data.keyword.ibmcf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-available_versions).
+{: important}
 
 # Available versions
 {: #available_versions}

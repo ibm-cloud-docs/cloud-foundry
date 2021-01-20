@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-11-07"
+  years: 2017, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 
 
@@ -16,6 +16,9 @@ subcollection: cloud-foundry
 {:tip: .tip}
 {:hide-in-docs: .hide-in-docs}
 {:app_name: data-hd-keyref="app_name"}
+
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.ibmcf_notm}} can be found in the [{{site.data.keyword.ibmcf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-php).
+{: important}
 
 # Getting started with PHP
 {: #getting-started-php}
