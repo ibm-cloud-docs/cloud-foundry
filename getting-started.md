@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-08-13"
+  years: 2018, 2021
+lastupdated: "2021-01-21"
 
 keywords: getting started tutorial, IBM Cloud, Cloud Foundry Enterprise Environment
 
@@ -19,10 +19,8 @@ subcollection: cloud-foundry
 {:note: .note}
 {:important: .important}
 
-The IBM Cloud Foundry Enterprise Environment single-tenant cloud product is deprecated and will be withdrawn from the market. [Click here for more information.](/docs/cloud-foundry?topic=cloud-foundry-what-s-new-in-ibm-cloud-foundry-enterprise-environment#deprecation)
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started).
 {: important}
-
-##Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow: https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started
 
 # Getting started with {{site.data.keyword.cfee_full_notm}}
 {: #getting-started}
