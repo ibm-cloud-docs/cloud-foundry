@@ -16,7 +16,7 @@ subcollection: cloud-foundry
 {:app_name: data-hd-keyref="app_name"}
 {:hide-in-docs: .hide-in-docs}
 
-{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this topic](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-go).
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-go).
 {: important}
 
 # Getting started with Go
