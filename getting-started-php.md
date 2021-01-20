@@ -17,7 +17,8 @@ subcollection: cloud-foundry
 {:hide-in-docs: .hide-in-docs}
 {:app_name: data-hd-keyref="app_name"}
 
-##Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow: https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-php
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this topic](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-php).
+{: important}
 
 # Getting started with PHP
 {: #getting-started-php}
