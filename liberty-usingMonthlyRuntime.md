@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-02-01"
+  years: 2019, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 
 ---
@@ -10,7 +10,8 @@ subcollection: cloud-foundry
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
 
-## Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow: https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-using_monthly_runtime
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-using_monthly_runtime).
+{: important}
 
 # Use the monthly runtime
 {: #using_monthly_runtime}
