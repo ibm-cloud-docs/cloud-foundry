@@ -11,7 +11,7 @@ subcollection: cloud-foundry
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
 
-{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-buildpack_defauts).
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.ibmcf_notm}} can be found in the [{{site.data.keyword.ibmcf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-buildpack_defauts).
 {: important}
 
 # Liberty for Java buildpack defaults
