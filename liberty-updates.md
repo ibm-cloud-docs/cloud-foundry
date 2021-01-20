@@ -1,15 +1,16 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-08-26"
+  years: 2015, 2021
+lastupdated: "2021-01-20"
 
 ---
 
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
 
-## Disclaimer: The Cloud Foundry Enterprise Edition has been deprecated. For the most recent updates on the documentation of Cloud Foundry Public offerings please follow: https://cloud.ibm.com/docs/cloud-foundry-public?topic=cloud-foundry-public-liberty-latest_updates
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-liberty-latest_updates).
+{: important}
 
 # Latest updates to the Liberty buildpack
 {: #liberty-latest_updates}
