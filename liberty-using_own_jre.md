@@ -1,14 +1,17 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 
 ---
 
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
+
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-using_own_jre).
+{: important}
 
 # Use your own JRE
 {: #using_own_jre}

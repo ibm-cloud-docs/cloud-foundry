@@ -1,14 +1,17 @@
 ---
 
 copyright:
-  years: 2015, 2019
-lastupdated: "2019-05-17"
+  years: 2015, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 
 ---
 
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
+
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-customizing_jre).
+{: important}
 
 # Customize the JRE
 {: #customizing_jre}
@@ -26,7 +29,7 @@ By default, applications are configured to run with a lightweight version of the
 ```
 {: codeblock}
 
-The version property can be set to a version range. There are two supported version ranges: 1.8.+ and 11.+. For best results, use Java 8. 
+The version property can be set to a version range. There are two supported version ranges: 1.8.+ and 11.+. For best results, use Java 8.
 
 ## OpenJDK
 {: #openjdk}

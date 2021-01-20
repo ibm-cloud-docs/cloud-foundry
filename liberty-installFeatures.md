@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-03-17"
+  years: 2018, 2021
+lastupdated: "2021-01-20"
 subcollection: cloud-foundry
 
 ---
@@ -10,6 +10,9 @@ subcollection: cloud-foundry
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
 {:tip: .tip}
+
+{{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.cf_notm}} can be found in the [{{site.data.keyword.cf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-install-features).
+{: important}
 
 # Install Liberty features
 {: #install-features}
