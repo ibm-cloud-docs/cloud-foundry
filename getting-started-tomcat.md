@@ -15,6 +15,7 @@ subcollection: cloud-foundry
 {:tip: .tip}
 {:hide-in-docs: .hide-in-docs}
 {:app_name: data-hd-keyref="app_name"}
+{:important: .important}
 
 {{site.data.keyword.cfee_full}} is deprecated. The most recent documentation updates for {{site.data.keyword.ibmcf_notm}} can be found in the [{{site.data.keyword.ibmcf_notm}} version of this information](/docs/cloud-foundry-public?topic=cloud-foundry-public-getting-started-tomcat).
 {: important}
